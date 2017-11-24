@@ -618,6 +618,14 @@ h3 > .fa {
 	text-align: center;
 }
 
+.owl-theme .owl-item:hover {
+	opacity: .7;
+}
+
+.owl-theme .owl-item li a:hover {
+	background: #EF4836;
+}
+
 .owl-theme .owl-controls .owl-page span {
 	margin: 0 4px;
 }
@@ -631,6 +639,7 @@ h3 > .fa {
 .owl-theme .owl-controls .owl-pagination {
 	margin-top: 20px;
 }
+
 
 /* ---------------------------------------------- /*
  * Portfolio
@@ -646,16 +655,13 @@ h3 > .fa {
 }
 
 .portfolio-item:hover .portfolio-item-preview {
-	-webkit-transform: scale(1.1) rotate(2deg);
-	   -moz-transform: scale(1.3) rotate(3deg);
-		-ms-transform: scale(1.3) rotate(3deg);
-		 -o-transform: scale(1.3) rotate(3deg);
-			transform: scale(1.2) rotate(3deg);
+	opacity: .4;
 }
 
 .portfolio-item:hover .portfolio-item-description {
 	opacity: 1;
 	bottom: 0;
+	top: 0;
 }
 
 .portfolio-item-description {
