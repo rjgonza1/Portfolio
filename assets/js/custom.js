@@ -119,9 +119,7 @@
 			delegate: 'a.pop-up',
 			type: 'image',
 			gallery: {
-				enabled: true,
-				navigateByImgClick: true,
-				preload: [0,1]
+				enabled: false,
 			},
 			image: {
 				titleSrc: 'title',

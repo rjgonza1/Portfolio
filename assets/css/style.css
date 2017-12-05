@@ -646,7 +646,7 @@ h3 > .fa {
 /* ---------------------------------------------- */
 
 .portfolio-item {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	overflow: hidden;
 }
 
@@ -664,6 +664,10 @@ h3 > .fa {
 	top: 0;
 }
 
+.portfolio-items {
+	margin-bottom: 40px;
+}
+
 .portfolio-item-description {
 	background: rgba(255, 255, 255, .85);
 	position: absolute;
@@ -674,6 +678,13 @@ h3 > .fa {
 	text-align: center;
 	opacity: 0;
 	color: #222;
+}
+
+.portfolio-info > i,
+.portfolio-info > h4 > i {
+	color: #C4C4C4;
+	font-size: 14px;
+	margin-right: 5px;
 }
 
 /* ---------------------------------------------- /*
